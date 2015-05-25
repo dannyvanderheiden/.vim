@@ -16,4 +16,9 @@ do
   ln -fs $source $dest
 done
 
+tmp_directory="$current/tmp"
+if [ ! -d "$tmp_directory" ]; then
+  mkdir $tmp_directory
+fi
+
 echo "Done!"
