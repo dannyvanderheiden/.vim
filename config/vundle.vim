@@ -15,6 +15,7 @@ Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-fugitive'
 Plugin 'godlygeek/tabular'
 Plugin 'vim-scripts/netrw.vim'
+Plugin 'airblade/vim-gitgutter'
 
 " Colorschemes
 Plugin 'vim-scripts/tir_black'
