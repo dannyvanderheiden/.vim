@@ -9,3 +9,4 @@ filetype plugin indent on
 
 " Load custom configuration settings.
 source ~/.vim/config/arrow_keys.vim
+source ~/.vim/config/history.vim
