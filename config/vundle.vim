@@ -17,6 +17,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'vim-scripts/netrw.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'mileszs/ack.vim'
+Plugin 'jlanzarotta/bufexplorer'
 
 " Colorschemes
 Plugin 'vim-scripts/tir_black'
