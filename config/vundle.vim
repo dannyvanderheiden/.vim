@@ -14,6 +14,7 @@ Plugin 'othree/html5-syntax.vim'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-fugitive'
 Plugin 'godlygeek/tabular'
+Plugin 'vim-scripts/netrw.vim'
 
 " Colorschemes
 Plugin 'vim-scripts/tir_black'
