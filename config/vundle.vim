@@ -18,6 +18,7 @@ Plugin 'vim-scripts/netrw.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'mileszs/ack.vim'
 Plugin 'jlanzarotta/bufexplorer'
+Plugin 'tomtom/tcomment_vim'
 
 " Colorschemes
 Plugin 'vim-scripts/tir_black'
