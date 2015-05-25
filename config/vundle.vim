@@ -6,6 +6,7 @@ Plugin 'tpope/vim-rails'
 " Syntax / Indenting
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'hail2u/vim-css3-syntax'
+Plugin 'tpope/vim-markdown'
 
 " Colorschemes
 Plugin 'vim-scripts/tir_black'
