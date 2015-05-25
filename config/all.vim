@@ -18,6 +18,7 @@ filetype plugin indent on
 " Load custom configuration settings.
 source ~/.vim/config/arrow_keys.vim
 source ~/.vim/config/bufexplorer.vim
+source ~/.vim/config/ctrlp.vim
 source ~/.vim/config/cucumber.vim
 source ~/.vim/config/history.vim
 source ~/.vim/config/indenting.vim
