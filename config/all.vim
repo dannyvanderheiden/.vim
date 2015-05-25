@@ -4,6 +4,14 @@ set nocompatible
 " Enable syntax highlighting.
 syntax on
 
+" Load Vim plugins with Vundle.
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+source ~/.vim/config/vundle.vim
+
+call vundle#end()
+
 " Enable filetype detection and language specific indenting.
 filetype plugin indent on
 
