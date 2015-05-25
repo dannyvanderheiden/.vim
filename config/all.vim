@@ -13,3 +13,4 @@ source ~/.vim/config/history.vim
 source ~/.vim/config/indenting.vim
 source ~/.vim/config/keys.vim
 source ~/.vim/config/search.vim
+source ~/.vim/config/whitespace.vim
