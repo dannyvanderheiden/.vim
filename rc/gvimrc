@@ -1,6 +1,9 @@
 " Load default Vim settings
 source ~/.vim/config/all.vim
 
+" Load colorscheme
+colorscheme ir_black
+
 " Use antialiased fonts.
 set antialias
 
