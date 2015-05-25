@@ -1,0 +1,11 @@
+" Load default Vim settings
+source ~/.vim/config/all.vim
+
+" Use antialiased fonts.
+set antialias
+
+" Use a minimal GUI.
+set guioptions=Ace
+
+" Don't beep when an error occurs.
+set vb t_vb=
