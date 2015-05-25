@@ -16,5 +16,6 @@ source ~/.vim/config/keys.vim
 source ~/.vim/config/ruby.vim
 source ~/.vim/config/search.vim
 source ~/.vim/config/splits.vim
+source ~/.vim/config/statusbar.vim
 source ~/.vim/config/visual.vim
 source ~/.vim/config/whitespace.vim
