@@ -1,2 +1,5 @@
 " Load default Vim settings
 source ~/.vim/config/all.vim
+
+" Load colorscheme
+colorscheme tir_black
