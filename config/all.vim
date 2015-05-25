@@ -11,3 +11,4 @@ filetype plugin indent on
 source ~/.vim/config/arrow_keys.vim
 source ~/.vim/config/history.vim
 source ~/.vim/config/indenting.vim
+source ~/.vim/config/keys.vim
