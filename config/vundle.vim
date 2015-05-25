@@ -2,6 +2,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " Ruby / Rails
 Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-cucumber'
 
 " Syntax / Indenting
 Plugin 'kchmck/vim-coffee-script'
