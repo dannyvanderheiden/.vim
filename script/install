@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+
+current=`pwd`
+
+echo "VIM settings"
+
+files=("vimrc" "gvimrc")
+
+for file in "${files[@]}"
+do
+  dest="$HOME/.$file"
+  source="$current/rc/$file"
+
+  echo "Creating symlink: $file"
+  ln -fs $source $dest
+done
+
+echo "Done!"
