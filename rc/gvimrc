@@ -2,7 +2,7 @@
 source ~/.vim/config/all.vim
 
 " Load colorscheme
-colorscheme ir_black
+silent! colorscheme ir_black
 
 " Use antialiased fonts.
 set antialias
