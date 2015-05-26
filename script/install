@@ -33,4 +33,9 @@ if [ ! -d "bundle/Vundle.vim" ]; then
   git clone git@github.com:gmarik/Vundle.vim.git bundle/Vundle.vim
 fi
 
+if [ -d "bundle/Vundle.vim" ]; then
+  echo "Installing Vim plugins..."
+  vim +BundleInstall +qall
+fi
+
 echo "Vim settings finished!"
