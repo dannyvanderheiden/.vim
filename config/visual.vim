@@ -21,3 +21,6 @@ set cursorline
 
 " Change the current cursor line color.
 :autocmd ColorScheme * highlight CursorLine guibg=#111111
+
+" Don't replace the word, but show a $ character instead.
+set cpoptions=ces$
