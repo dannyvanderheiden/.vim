@@ -3,8 +3,10 @@ set -e
 
 current=`pwd`
 
-echo "VIM settings"
 
+echo "Installing Vim settings..."
+
+# Symlink RC files
 files=("vimrc" "gvimrc")
 
 for file in "${files[@]}"
@@ -12,18 +14,23 @@ do
   dest="$HOME/.$file"
   source="$current/rc/$file"
 
-  echo "Creating symlink: $file"
+  echo "Creating symlink: .$file"
   ln -fs $source $dest
 done
 
+
+# Create Vim temp directory
 tmp_directory="$current/tmp"
 if [ ! -d "$tmp_directory" ]; then
+  echo "Created Vim temp directory."
   mkdir $tmp_directory
 fi
 
+
+# Install Vundle
 if [ ! -d "bundle/Vundle.vim" ]; then
   echo "Installing Vundle..."
   git clone git@github.com:gmarik/Vundle.vim.git bundle/Vundle.vim
 fi
 
-echo "Done!"
+echo "Vim settings finished!"
