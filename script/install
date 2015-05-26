@@ -21,4 +21,9 @@ if [ ! -d "$tmp_directory" ]; then
   mkdir $tmp_directory
 fi
 
+if [ ! -d "bundle/Vundle.vim" ]; then
+  echo "Installing Vundle..."
+  git clone git@github.com:gmarik/Vundle.vim.git bundle/Vundle.vim
+fi
+
 echo "Done!"
