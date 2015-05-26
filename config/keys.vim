@@ -4,6 +4,9 @@ let mapleader = ","
 " Rename ':W' to ':w'.
 command! W :w
 
+" Delete over line breaks, or automatically-inserted indentation, or the place started.
+set backspace=indent,eol,start
+
 " Turn off F1
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
