@@ -12,6 +12,9 @@ inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
+" Reload the ~/.vimrc file.
+nnoremap <F12> :source ~/.vimrc<CR>
+
 " Go to normal mode with 'jj' when in insert mode.
 inoremap jj <ESC>
 
