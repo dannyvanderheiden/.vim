@@ -1,9 +1,6 @@
 " Use Vim settings, instead of Vi settings.
 set nocompatible
 
-" Enable syntax highlighting.
-syntax on
-
 " Load Vim plugins with Vundle.
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -11,6 +8,9 @@ call vundle#begin()
 source ~/.vim/config/vundle.vim
 
 call vundle#end()
+
+" Enable syntax highlighting.
+syntax on
 
 " Enable filetype detection and language specific indenting.
 filetype plugin indent on
