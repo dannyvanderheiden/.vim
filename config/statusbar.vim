@@ -14,6 +14,11 @@ set statusline +=%*\ (%{&ft})                       " Filetype.
 set statusline +=%1*\ [%n]\                         " Buffer number.
 set statusline +=%*\ %m                             " Modified flag.
 
+" Add Syntastic output to the statusbar.
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
 set statusline +=%*%=                               " Align right from this point on.
 
 set statusline +=%*\ %{&ff}\                        " File format.
