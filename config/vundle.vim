@@ -22,6 +22,7 @@ Plugin 'jlanzarotta/bufexplorer'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'lokaltog/vim-easymotion'
+Plugin 'tpope/vim-vinegar'
 
 " Colorschemes
 Plugin 'vim-scripts/tir_black'
