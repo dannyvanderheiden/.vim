@@ -23,6 +23,7 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'lokaltog/vim-easymotion'
 Plugin 'tpope/vim-vinegar'
+Plugin 'pbrisbin/vim-mkdir'
 
 " Colorschemes
 Plugin 'vim-scripts/tir_black'
