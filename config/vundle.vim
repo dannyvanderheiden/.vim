@@ -14,6 +14,7 @@ Plugin 'othree/html5-syntax.vim'
 " Utils
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-fugitive'
+Plugin 'shumphrey/fugitive-gitlab.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'vim-scripts/netrw.vim'
 Plugin 'airblade/vim-gitgutter'
