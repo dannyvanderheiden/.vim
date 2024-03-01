@@ -4,6 +4,10 @@ let mapleader = ","
 " Rename ':W' to ':w'.
 command! W :w
 
+command! Vs :vs
+command! Vs :vs
+command! Sp :sp
+
 " Delete over line breaks, or automatically-inserted indentation, or the place started.
 set backspace=indent,eol,start
 
