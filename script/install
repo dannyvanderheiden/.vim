@@ -30,7 +30,7 @@ fi
 # Install Vundle
 if [ ! -d "bundle/Vundle.vim" ]; then
   echo "Installing Vundle..."
-  git clone https://github.com/VundleVim/Vundle.vim.git bundle/Vundle.vim
+  git clone git@github.com:VundleVim/Vundle.vim.git bundle/Vundle.vim
 fi
 
 if [ -d "bundle/Vundle.vim" ]; then
