@@ -10,6 +10,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'tpope/vim-markdown'
 Plugin 'othree/html5-syntax.vim'
+Plugin 'slim-template/vim-slim.git'
 
 " Utils
 Plugin 'tpope/vim-endwise'
@@ -25,6 +26,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'lokaltog/vim-easymotion'
 Plugin 'tpope/vim-vinegar'
 Plugin 'pbrisbin/vim-mkdir'
+
+" Plugin 'neoclide/coc.nvim'
 
 " Colorschemes
 Plugin 'vim-scripts/tir_black'
